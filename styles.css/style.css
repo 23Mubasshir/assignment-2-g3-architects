@@ -1,0 +1,534 @@
+
+/* Styles for all */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.default-button {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff900e;
+    padding: 21px 25px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+
+body {
+  width: 1920px;
+  margin: auto;
+}
+
+
+
+p.default-p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 24px 0 32px 0;
+}
+
+
+.container {
+  width: 1440px;
+  margin: auto;
+  padding: 130px 0;
+}
+
+
+
+
+
+
+
+/* -----header----- */
+
+
+header {
+  padding-bottom: 45px;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.logo-1 h2 {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.menu ul {
+  display: flex;
+  gap: 68px;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
+
+
+
+
+
+/* -----header banner----- */
+
+
+h1.header-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+}
+
+p.description-1 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 32px 0;
+    padding: 32px 536px;
+}
+
+img.img-1{
+  width: 1440px;
+}
+
+.header-banner {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/* -----quick-list----- */
+
+
+.quick-list-container {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    padding-top: 85px;
+}
+
+.quick-list-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px 24px;
+}
+
+.quick-list-info {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.quick-list-title {
+    color: #131313;
+    font-weight: 500;
+    font-size: 45px;
+    padding-bottom: 24px;
+}
+
+.color-list {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.color-feature {
+    color: #FF900E;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+
+.quick-list-info .default-button {
+    margin-top: 32px;
+}
+
+
+
+
+
+/* -----Features you will love----- */
+
+
+img.feature-img {
+    width: 100%;
+}
+
+.a10-button-box {
+    color: #ffff;
+    background: #ff900e;
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.feature-container {
+  display: flex;
+  align-items: center;
+  gap: 146px;
+}
+
+h2.feature-title {
+    line-height: 53px;
+    color: #131313;
+    border-left: 15px solid #ff900e;
+    padding-left: 11px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.a10-button-box {
+    bottom: -80px;
+      left: -91px;
+      position: absolute;
+      
+    }
+  
+.feature-img-side {
+    position: relative;
+}
+
+.feature-text {
+  width: 40%;
+
+}
+.feature-item {
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.06);
+  
+}
+
+.a10-button-box h2 {
+    font-weight: 700;
+    font-size: 65px;
+}
+  
+  .a10-button-box h5 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+/* -----Some fact----- */
+
+.some-facts-texts {
+  width: 42%;
+}
+
+h2.some-facts-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+
+.some-facts-icon-box {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.icon-box {
+  padding: 45px;
+  border: 1px solid #ff900e;
+  transition: 0.5s;
+}
+
+.icon-box:hover {
+  transform: scale(0.9);
+}
+
+h2.icon-box-title {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+}
+
+h5.icon-box-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+
+
+
+
+
+/* -----Sponsors----- */
+
+.sponsor-title-box {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+h2.sponsors-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.sponsors-img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+/* -----contact section (extra section for extra marks)----- */
+
+.form {
+    background-color: rgba(255, 193, 122, 0.486);
+    padding: 50px;
+}
+
+input[type=submit] {
+    background-color: #FF900E;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 130px;
+}
+
+.contact-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+input[type=text],
+select,
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+    width: 100%;
+    padding: 15px;
+    
+    
+}
+
+
+/* -----Footer----- */
+
+footer {
+  background: #fff4e7;
+  border-radius: 8px;
+  padding: 40px 0;
+}
+.footer-container {
+  text-align: center;
+}
+h6.footer-copy-right {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #424242;
+}
+
+
+
+
+
+
+
+
+/*  -------------------------Responsive----------------------------------- */
+
+
+
+@media all and (max-width: 576px) { 
+
+  body {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    padding: 120px 38px;
+  }
+  section {
+    padding: 100px 23px;
+  }
+
+
+  /* ---------header---------- */
+
+  .menu {
+    position: relative;
+  }
+
+  .menu ul { 
+    gap: 15px;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-right: 50px;
+
+
+  
+  }
+
+  nav {
+    justify-content: space-between;
+    margin-left: 39px;
+  }
+  .header-banner {
+    padding: 100px 0px;
+  }
+  
+  .logo-1 h2 {
+    font-size: 30px;
+  }
+
+  p.description-1 {
+    padding: 17px 57px;
+  }
+  img.img-1 {
+    width: 90%;
+  }
+
+
+/* ----------quick list---------- */
+
+ .quick-list-container {
+ flex-direction: column;
+  }
+    .quick-list-images {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .quick-list-info {
+        padding: 0 20px;
+    }
+
+
+/* ---------- Features you will love----------- */
+
+
+  .feature-container {
+    flex-direction: column;
+  }
+
+  .feature-text {
+    width: auto;
+    padding: 31px 41px;
+ }
+
+  .a10-button-box {
+    position: revert;
+    margin-top: 19px;
+  }
+  
+
+  /* ----------Some facts--------- */
+
+  .some-facts-texts {
+    width: auto;
+    padding: 10px 33px;
+  }
+
+  /* -----------Sponsors--------- */
+
+  .sponsors-img {
+    flex-direction: column;
+    gap: 22px;
+  }
+  .sponsor-title-box {
+    width: auto;
+  }
+    
+
+ /* -----contact section (extra section for extra marks)----- */
+
+  section.contact {
+    padding: 20px;
+  }
+  .contact-text {
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  .hide {
+    display: none !important;
+   }
+  
+  .contact-form form textarea {
+    width: 83%;
+  }
+  
+  .love-feature-img-side {
+    width: 80%;
+    margin: auto;
+  }
+
+  .some-facts-icon-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+
+
+
+
